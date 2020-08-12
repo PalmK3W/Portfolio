@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  background-color: black;
+}
+
+img {
+  height: 120px;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  
+}
+.PalmK3W{
+  height: 400px;
+  width: 400px;
+  padding: 60px;
+  border-radius: 50%;
+}
+
+
+.flexx{
+  display: flex; 
+  background-color:burlywood ;
+  
+}
+.about{
+  padding-top: 100px;
+  height: 250px;
+  
+}
+.skill{
+  background-color: blanchedalmond;
+  
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.exp{
+  background-color: burlywood;
+  
+}
+.contact{
+  background-color: blanchedalmond;
+  height: 200px;
+}
+p {
+  padding-left: 50px;
+}
+@media (max-width:800px){
+  .PalmK3W{
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    padding-top: 100px;
+  }
+  .flexx{
+    display: flex; 
+    background-color:burlywood ;
+  }
+  .about{
+    height: 400px;
+  }
+}
